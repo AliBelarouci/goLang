@@ -1,5 +1,5 @@
 # DATA SCORE CHALLENGE
-this my challenge for datascore team
+this my challenge for datascore team.
 ### you find in this details :
 - 1. how to implemente requirements of this project
 - 2. how to run project dev mod or prod mod
