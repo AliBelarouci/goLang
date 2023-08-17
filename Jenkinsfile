@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        go '1.21.0'
+        go '1.18.1'
     }
     stages{
         stage("Go example"){
