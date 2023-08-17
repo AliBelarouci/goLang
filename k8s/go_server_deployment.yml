@@ -1,0 +1,21 @@
+# db-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-server
+spec:
+  selector:
+    matchLabels:
+      app: go-server
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: go-server
+    spec:
+      containers:
+        - name: go-server
+          image: ds_challenge_latest_api:latest
+          ports:
+            - containerPort: 8889
+              name: "go-server"

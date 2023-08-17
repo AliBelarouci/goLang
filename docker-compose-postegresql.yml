@@ -1,0 +1,16 @@
+version: '2'
+services:
+  db:
+    image: postgres:14
+    container_name: go-psql
+    user: root
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}     
+      - POSTGRES_DB=${DB_NAME}
+    restart: always             # run as a service
+    ports:
+      - "5435:5432"
+    
+    volumes:
+        - ./postgresql:/var/lib/postgresql/data
