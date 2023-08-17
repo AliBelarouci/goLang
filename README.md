@@ -6,7 +6,7 @@ this my challenge for datascore team.
 
 - 1. how to implemente requirements of this project
 - 2. how to run project dev mod or prod mod
-- 3. implementation the test
+- 3. implementation the test.
 - 4. how to configure gcp for reading csv file from it.
 - 5. Setup a CI/CD pipeline to build or test.
 
