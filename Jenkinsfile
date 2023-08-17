@@ -5,7 +5,7 @@ pipeline {
     }
     stages{
         stage("Go example"){
-            setep{
+            steps{
                 sh:"go version"
             }
         }
